@@ -1,10 +1,10 @@
 {
 
   "manifest_version": 2,
-  "name": "imaginative",
+  "name": "LetsImagine",
   "version": "1.0",
 
-  "description": "Adds a red border to all webpages matching mozilla.org.",
+  "description": "Shows a motivational message on pornhub, to remind you of the value of imagination over porn.",
 
   "icons": {
     "48": "icon48.png"
@@ -12,7 +12,7 @@
 
   "content_scripts": [
     {
-      "matches": ["*://*.blank.org/*"],
+      "matches": ["*://*.pornhub.com/*"],
       "js": ["imagine.js"]
     }
   ]

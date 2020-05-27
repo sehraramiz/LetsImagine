@@ -1,0 +1,20 @@
+{
+
+  "manifest_version": 2,
+  "name": "imaginative",
+  "version": "1.0",
+
+  "description": "Adds a red border to all webpages matching mozilla.org.",
+
+  "icons": {
+    "48": "icon48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.blank.org/*"],
+      "js": ["imagine.js"]
+    }
+  ]
+
+}

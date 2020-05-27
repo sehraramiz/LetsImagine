@@ -37,6 +37,7 @@ var css = `
     
     h1 {
     	animation: heartbeat 4s infinite;
+        color: #000;
         text-shadow: 2px 2px #B22222;
     }
 

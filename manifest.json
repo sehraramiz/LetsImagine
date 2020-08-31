@@ -13,8 +13,7 @@
   "content_scripts": [
     {
       "matches": ["*://*.pornhub.com/*"],
-      "js": ["imagine.js"]
+      "js": ["imagine-clean.js"]
     }
   ]
-
 }
